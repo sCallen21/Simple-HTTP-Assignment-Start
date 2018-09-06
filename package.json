@@ -1,0 +1,26 @@
+{
+  "name": "simple-http",
+  "version": "1.0.0",
+  "description": "simple-http homework assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sCallen21/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Stephen Callen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sCallen21/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/sCallen21/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
